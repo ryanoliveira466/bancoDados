@@ -1,0 +1,11 @@
+1) Selecione todos os desenvolvedores.
+2) Retorne o nome e tipos de todos os equipamentos.
+3) Liste os projetos e suas descrições.
+4) Mostre todos os clientes.
+5) Exiba o nome e cargo dos desenvolvedores;
+6) Liste os equipamentos com seus nomes.
+7) Selecione os projetos que tem um desenvolvedor específico.
+8) Mostre os clientes que se cadastraram em uma data específica.
+9) Exiba os chamados e suas descrições.
+10) Retorne os tipos de equipamentos disponíveis.
+11) Selecione o nome do desenvolvedor e o nome do projeto associado a ele.
