@@ -1,0 +1,47 @@
+Feito em aula:
+Irá começar um campeonato de Futsal na escola e estão precisando de você! Para isso, crie uma base de dados chamada Campeonato_[Seu Nome]
+
+Para criar um banco de dados relacionado a times de futsal, você precisará definir as informações que deseja armazenar:
+
+a) Tabela de Times: com informações sobre cada time, como nome, cidade, estado, país, data de fundação, técnico, entre outros. b) Tabela de Jogadores: com informações sobre cada jogador, como nome, posição, idade, altura, peso, número da camisa, entre outros. c) Tabela de Jogos: com informações sobre cada jogo, como data, hora, local, time adversário, resultado, entre outros. d) Tabela de Estatísticas: com informações sobre as estatísticas de cada jogador e time, como gols marcados, assistências, cartões amarelos e vermelhos recebidos, entre outros.
+
+CREATE TABLE Estatisticas(
+	id_estatistica INT NOT NULL AUTO_INCREMENT,
+	id_jogador INT,
+	id_time INT,
+	gols_time_casa INT,
+	gols_time_fora INT,
+	assistencia_casa INT, -- Referente as assistencias de gol
+	assistencia_fora INT,
+	cartoes_amarelos_casa INT,
+	cartoes_amarelos_fora INT,
+	-- crie as foreign keys com constraint
+)
+
+Atividade:
+
+Qual é a lista completa de jogadores que fazem parte do time de futsal?
+
+Quantas partidas o time já jogou nesta temporada?
+
+Qual foi o resultado da última partida disputada pelo time?
+
+Quais jogadores têm mais gols marcados na temporada?
+
+Qual é a média de gols por partida do time até agora?
+
+Quem são os jogadores que têm mais cartões amarelos acumulados?
+
+Quantas faltas foram cometidas pelo time até agora na temporada?
+
+Quais são as informações dos jogadores que jogaram em cada partida e em qual time eles estavam?
+
+Quais são as partidas em que um determinado jogador jogou e qual foi o resultado da partida?
+
+Quais são as informações dos jogadores que têm mais de 10 gols na temporada atual?
+
+Qual é o ranking dos times com base no número de vitórias na temporada atual?
+
+Quais são as informações dos jogadores que jogaram em cada partida e em qual time eles estavam?
+
+Quais são as partidas em que um determinado jogador jogou e qual foi o resultado da partida? 
