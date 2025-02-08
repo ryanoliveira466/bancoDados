@@ -1,4 +1,4 @@
-1) Crie uma tabela Funcionário que tenha o seu nome, sua função, sua data de nascimento e seu salário.
+--1) Crie uma tabela Funcionário que tenha o seu nome, sua função, sua data de nascimento e seu salário.
 
 CREATE TABLE funcionario(
 id_funcionario INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
@@ -12,7 +12,7 @@ salário DECIMAL (10,2) NOT NULL
 
 
 
-2) Crie uma tabela chamada Setor onde contenha o nome do setor, quantidade de funcionários.
+--2) Crie uma tabela chamada Setor onde contenha o nome do setor, quantidade de funcionários.
 
 CREATE TABLE setor(
 id_setor INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
@@ -25,7 +25,7 @@ quantidade_funcionário INT(50) NOT NULL
 
 
 
-3)Adicione uma coluna na tabela Funcionário onde contenha uma foreign key relacionada a tabela Setor.
+--3)Adicione uma coluna na tabela Funcionário onde contenha uma foreign key relacionada a tabela Setor.
 
 ALTER TABLE funcionario
 ADD id_setor INT;
@@ -39,7 +39,7 @@ FOREIGN KEY (id_setor) REFERENCES setor(id_setor)
 
 
 
-4)Adicione uma coluna na tabela Cliente que contenha sua renda mensal.
+--4)Adicione uma coluna na tabela Cliente que contenha sua renda mensal.
 
 ALTER TABLE cliente ADD renda_mensal DECIMAL(10,2)
 
@@ -49,9 +49,9 @@ ALTER TABLE cliente ADD renda_mensal DECIMAL(10,2)
 
 
 
-5)Insira os dados necessários em cada tabela
+--5)Insira os dados necessários em cada tabela
 
-TABELA FUNCIONÁRIO
+--TABELA FUNCIONÁRIO
 
 INSERT INTO funcionario (nome, função, data_nascimento, salário)
 VALUES
@@ -65,14 +65,14 @@ SET id_setor = 2
 WHERE id_funcionario = 1
 ...
 
-TABELA SETOR
+--TABELA SETOR
 
 INSERT INTO setor (nome_setor, quantidade_funcionário)
 VALUES
 ('Ambulatório',10),
 ('Medicina',50)
 
-TABELA CLIENTE
+--TABELA CLIENTE
 
 UPDATE cliente 
 SET renda_mensal = 2000.00
@@ -83,7 +83,7 @@ WHERE id_cliente = 1
 
 
 
-6)
+--6)
 
 a) SELECT MAX(renda_mensal)
 FROM cliente
@@ -134,7 +134,7 @@ from funcionario
 
 
 
-7)
+--7)
 
 SELECT SUM(renda_mensal)
 FROM cliente
