@@ -55,6 +55,7 @@ CREATE TABLE Estatisticas(
 	cartoes_amarelos_fora INT,
 	-- crie as foreign keys com constraint
 );
+```
 
 
 Atividades
