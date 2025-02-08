@@ -70,7 +70,7 @@ mysql -u root -p
 ```
 
 * Depois disso, pedirá senha(coloque-a se tiver) e pronto, você pode acessar o banco através do terminal
-```bash
+```prompt
 Welcome to the MariaDB monitor.  Commands end with ; or \g.
 Your MariaDB connection id is 3
 Server version: 11.4.2-MariaDB mariadb.org binary distribution
