@@ -2,9 +2,13 @@
 
 ### 8) Crie um procedimento para buscar o código, o nome e o salário líquido dos funcionários. O salário líquido é obtido pela diferença entre o salário cadastrado menos 20% desse mesmo salário;
 
+---
+
 ### 9) Agora transforme todas as consultas das questões a seguir em procedimentos armazenados, podendo ser Function ou Procedure:
 
-#### 6) Busque as seguintes informações filtrando os dados:
+---
+
+### 6) Busque as seguintes informações filtrando os dados:
 
 a) **Buscar os dados dos ambulatórios que possuem capacidade superior à 30;**
 
