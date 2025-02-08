@@ -1,4 +1,4 @@
-# Atividades introdutórias ao JavaScript
+# Atividades introdutórias ao Banco de Dados
 
 Este repositório contém as atividades que abordam as principais funções do Banco de Dados
 
