@@ -162,7 +162,7 @@ WHERE id_p = 2
 
 
 -- b) A consulta do médico 1 com o paciente 4 foi marcada
-para as 12 horas do dia 4 de novembro de 2021;
+--para as 12 horas do dia 4 de novembro de 2021;
 
 
 UPDATE consultas
