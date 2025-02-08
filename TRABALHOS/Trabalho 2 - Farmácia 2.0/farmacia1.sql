@@ -1,10 +1,10 @@
-1) Crie uma tabela Funcionário que tenha o seu nome, sua função, sua data de nascimento e seu salário.
+--1) Crie uma tabela FuncionÃ¡rio que tenha o seu nome, sua funÃ§Ã£o, sua data de nascimento e seu salÃ¡rio.
 
 CREATE TABLE funcionario(
 id_funcionario INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
-função VARCHAR(50) NOT NULL,
+funÃ§Ã£o VARCHAR(50) NOT NULL,
 data_nascimento DATE NOT NULL,
-salário DECIMAL (10,2) NOT NULL
+salÃ¡rio DECIMAL (10,2) NOT NULL
 )
 
 
@@ -12,12 +12,12 @@ salário DECIMAL (10,2) NOT NULL
 
 
 
-2) Crie uma tabela chamada Setor onde contenha o nome do setor, quantidade de funcionários.
+--2) Crie uma tabela chamada Setor onde contenha o nome do setor, quantidade de funcionÃ¡rios.
 
 CREATE TABLE setor(
 id_setor INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
 nome_setor VARCHAR(50) NOT NULL,
-quantidade_funcionário INT(50) NOT NULL
+quantidade_funcionÃ¡rio INT(50) NOT NULL
 )
 
 
@@ -25,7 +25,7 @@ quantidade_funcionário INT(50) NOT NULL
 
 
 
-3)Adicione uma coluna na tabela Funcionário onde contenha uma foreign key relacionada a tabela Setor.
+--3)Adicione uma coluna na tabela FuncionÃ¡rio onde contenha uma foreign key relacionada a tabela Setor.
 
 ALTER TABLE funcionario
 ADD id_setor INT;
@@ -39,7 +39,7 @@ FOREIGN KEY (id_setor) REFERENCES setor(id_setor)
 
 
 
-4)Adicione uma coluna na tabela Cliente que contenha sua renda mensal.
+--4)Adicione uma coluna na tabela Cliente que contenha sua renda mensal.
 
 ALTER TABLE cliente ADD renda_mensal DECIMAL(10,2)
 
@@ -49,15 +49,15 @@ ALTER TABLE cliente ADD renda_mensal DECIMAL(10,2)
 
 
 
-5)Insira os dados necessários em cada tabela
+--5)Insira os dados necessÃ¡rios em cada tabela
 
-TABELA FUNCIONÁRIO
+--TABELA FUNCIONÃRIO
 
-INSERT INTO funcionario (nome, função, data_nascimento, salário)
+INSERT INTO funcionario (nome, funÃ§Ã£o, data_nascimento, salÃ¡rio)
 VALUES
-('Gustavo','Médico','2000-02-10',5000.00);
+('Gustavo','MÃ©dico','2000-02-10',5000.00);
 ('Gabriel','Enfermeiro','1999-04-09',4000.00);
-('Patrícia','Atendente','2001-09-12',3500.00);
+('PatrÃ­cia','Atendente','2001-09-12',3500.00);
 ('Luis','Atendente','2001-09-12',3500.00)
 
 UPDATE funcionario
@@ -65,14 +65,14 @@ SET id_setor = 2
 WHERE id_funcionario = 1
 ...
 
-TABELA SETOR
+--TABELA SETOR
 
-INSERT INTO setor (nome_setor, quantidade_funcionário)
+INSERT INTO setor (nome_setor, quantidade_funcionÃ¡rio)
 VALUES
-('Ambulatório',10),
+('AmbulatÃ³rio',10),
 ('Medicina',50)
 
-TABELA CLIENTE
+--TABELA CLIENTE
 
 UPDATE cliente 
 SET renda_mensal = 2000.00
@@ -83,7 +83,7 @@ WHERE id_cliente = 1
 
 
 
-6)
+--6)
 
 a) SELECT MAX(renda_mensal)
 FROM cliente
@@ -123,18 +123,18 @@ from venda
 
 
 
-d)SELECT MAX(salário)
+d)SELECT MAX(salÃ¡rio)
 FROM funcionario
 
-d)SELECT MIN(salário)
+d)SELECT MIN(salÃ¡rio)
 FROM funcionario
 
-d)SELECT AVG(salário)
+d)SELECT AVG(salÃ¡rio)
 from funcionario
 
 
 
-7)
+--7)
 
 SELECT SUM(renda_mensal)
 FROM cliente
@@ -145,7 +145,7 @@ FROM medicamentos
 SELECT SUM(valor)
 FROM venda
 
-SELECT SUM(salário)
+SELECT SUM(salÃ¡rio)
 FROM funcionario
 
 
