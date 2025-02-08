@@ -10,7 +10,7 @@ TRUNCATE TABLE table_name;
 DELETE FROM table_name;
 ALTER TABLE table_name AUTO_INCREMENT = 1;
 
-(Síntaxe do "INSERT INTO" estava com erros e com isso alguns dados eram inseridos e os números dos ID não voltavam pr a contagem inicial depois de apagar e colocar outros dados então usei o comando "ALTER TABLE" para arrumar).
+--(Síntaxe do "INSERT INTO" estava com erros e com isso alguns dados eram inseridos e os números dos ID não voltavam pr a contagem inicial depois de apagar e colocar outros dados então usei o comando "ALTER TABLE" para arrumar).
 
 INSERT INTO fornecedor (nome_fornecedor, endereco_fornecedor, telefone_fornecedor)
 VALUES
