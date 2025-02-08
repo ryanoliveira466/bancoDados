@@ -1,6 +1,6 @@
 # Trabalho 5 - Financeira (Banco de Dados)
 
- `1` . Você foi convocado para criar um banco de dados de uma instituição 
+ #### `1` . Você foi convocado para criar um banco de dados de uma instituição 
 bancária. A princípio vamos fazer apenas o seguinte:
 
 
@@ -18,21 +18,19 @@ cartão de crédito;
 
 ---
 
- `2`. Agora crie um procedimento/função para saque onde retire o valor do saldo 
-da conta e atualize a tabela.
+ #### `2`. Agora crie um procedimento/função para saque onde retire o valor do saldo da conta e atualize a tabela.
 
 ---
 
- `3`. Após isso, um procedimento/função de depósito.
+ #### `3`. Após isso, um procedimento/função de depósito.
 
  ---
  
- `4`. Após isso, um procedimento/função para transferência entre contas. Lembre
-se de utilizar IF ELSE nessa questão.
+ #### `4`. Após isso, um procedimento/função para transferência entre contas. Lembrese de utilizar IF ELSE nessa questão.
 
 ---
 
- `5`.Agora vamos fazer algumas alterações no Banco_do_RS.
+ #### `5`.Agora vamos fazer algumas alterações no Banco_do_RS.
  
  
  **a**) Crie uma tabela chamada movimentação que contenha
@@ -46,9 +44,8 @@ utilizando OLD.numerodacoluna e o saldo atualizado como NEW.saldo)
 
 ---
 
- `6`. Crie uma função que liste contas com saldo maior que o valor informado.
+ #### `6`. Crie uma função que liste contas com saldo maior que o valor informado.
  
  ---
  
- `7`. Crie um procedimento que modifica o saldo de todas as contas com o valor 
-informado; Dica: Remova o safe updates nas configs
+ #### `7`. Crie um procedimento que modifica o saldo de todas as contas com o valor informado; Dica: Remova o safe updates nas configs
