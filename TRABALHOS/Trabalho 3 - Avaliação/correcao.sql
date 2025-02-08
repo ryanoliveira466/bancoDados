@@ -62,21 +62,21 @@ UPDATE pacientes
 SET cidade = 'Ilhota'
 WHERE cod_p = '2';
 
--- b) A consulta do mÈdico 1 com o paciente 4 foi marcada para as 12 horas do dia 4 de novembro de 2021;
+-- b) A consulta do m√©dico 1 com o paciente 4 foi marcada para as 12 horas do dia 4 de novembro de 2021;
 
 UPDATE consultas
 SET data_ = '2021/11/04', hora = '12:00:01'
 WHERE cod_m = '1'
 
--- c) O funcion·rio 4 deixou a clÌnica;
+-- c) O funcion√°rio 4 deixou a cl√≠nica;
 DELETE FROM funcionarios
 WHERE cod_f = '4'
 
--- d) Foram contratados 2 novos funcion·rios. O funcion·rio Matheus e a funcion·ria Martina;
+-- d) Foram contratados 2 novos funcion√°rios. O funcion√°rio Matheus e a funcion√°ria Martina;
 INSERT INTO funcionarios
-VALUES (10, 'Martina', 19, '1111111', 'Get˙lio Vargas', 1500, 'Limpeza')
+VALUES (10, 'Martina', 19, '1111111', 'Get√∫lio Vargas', 1500, 'Limpeza')
 
--- e) Delete o paciente 3 pela doenÁa e adicione um novo com a mesma doenÁa;
+-- e) Delete o paciente 3 pela doen√ßa e adicione um novo com a mesma doen√ßa;
 
 SELECT * FROM pacientes WHERE cod_p = '3'
 
@@ -86,12 +86,12 @@ DELETE FROM consultas
 WHERE cod_p = '3'
 
 DELETE FROM pacientes
-WHERE doenca = 'Dores de cabeÁa'
+WHERE doenca = 'Dores de cabe√ßa'
 
 INSERT INTO pacientes
-VALUES (6, 'Mario', 25, 'Novo Hamburgo', '5021364798', 'Dores de cabeÁa')
+VALUES (6, 'Mario', 25, 'Novo Hamburgo', '5021364798', 'Dores de cabe√ßa')
 
--- f) Os pacientes com idade inferior a 24 anos deixaram a clÌnica.
+-- f) Os pacientes com idade inferior a 24 anos deixaram a cl√≠nica.
 SELECT * FROM consultas
 INNER JOIN pacientes
 ON pacientes.cod_p = consultas.cod_p
@@ -131,7 +131,7 @@ SELECT nome, (idade * 12) AS 'Idade em Meses' FROM pacientes;
 
 INSERT INTO funcionarios
 VALUES (6, 'Fabricio', 20, '4564879546', 'Passo Fundo', 2000, 'Atendente'),
-(7, 'JosÈ', 45, '987654321', 'Passo Fundo', 5000, 'Vigilante Noturno');
+(7, 'Jos√©', 45, '987654321', 'Passo Fundo', 5000, 'Vigilante Noturno');
 
 SELECT MIN(salario) AS 'Menor Salario', MAX(salario) AS 'Maior Salario'
 FROM funcionarios
@@ -145,7 +145,7 @@ FROM medicos;
 INSERT INTO medicos
 VALUES (11, 'Bruno', 60, 'Ortopedia', '85274679', 'Canoas', 3);
 
-SELECT medicos.nome, a.cod_amb AS 'CÛd. AmbulatÛrio', a.andar AS 'Num. Andar' FROM medicos
+SELECT medicos.nome, a.cod_amb AS 'C√≥d. Ambulat√≥rio', a.andar AS 'Num. Andar' FROM medicos
 INNER JOIN ambulatorios AS a
 ON a.cod_amb = medicos.cod_amb
 WHERE medicos.especialidade = 'Ortopedia';
@@ -168,9 +168,9 @@ ON p.cod_p = c.cod_p
 WHERE c.hora > '13:59:59';
 
 SELECT 
-f.cod_f 'ID do Funcion·rio', 
-f.nome 'Nome do Funcion·rio',
-f.salario 'Sal·rio Bruto', 
-(f.salario * 0.80) 'Sal·rio Liquido'
+f.cod_f 'ID do Funcion√°rio', 
+f.nome 'Nome do Funcion√°rio',
+f.salario 'Sal√°rio Bruto', 
+(f.salario * 0.80) 'Sal√°rio Liquido'
 FROM funcionarios f
 
