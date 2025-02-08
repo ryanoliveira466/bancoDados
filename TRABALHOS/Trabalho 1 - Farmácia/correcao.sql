@@ -129,7 +129,7 @@ WHERE	valor > 150.00;
 INSERT INTO venda (data_venda, id_med, id_cliente, valor)
 VALUES ('2024-02-08', 5, 5, 100.00);
 
-COM O NOME DO CLIENTE:
+--COM O NOME DO CLIENTE:
 SELECT cliente.nome_cliente AS 'Cliente com mais compras'
 FROM venda
 INNER JOIN cliente
@@ -137,7 +137,7 @@ ON cliente.id_cliente = venda.id_cliente
 GROUP BY venda.id_cliente
 HAVING COUNT(*) > 1
 
-versão simples:
+--versÃ£o simples:
 SELECT id_cliente AS 'Cliente com mais compras'
 FROM venda
 GROUP BY id_cliente
@@ -156,7 +156,7 @@ MAX(medicamentos_vendidos)
 AS 'Medicamentos Vendidos'
 FROM fornecedor
 
-OBS.: INSERINDO ID E DATA DE FORNECIMENTO NA TABELA DE MEDICAMENTOS
+--OBS.: INSERINDO ID E DATA DE FORNECIMENTO NA TABELA DE MEDICAMENTOS
 
 ALTER TABLE medicamento
 ADD data_forn DATE;
@@ -210,7 +210,7 @@ FROM fornecedor
 WHERE nome_meds = 'Rivotril'
 
 11)
-(- Qual é o valor total de vendas por mês no último ano?)
+--(- Qual Ã© o valor total de vendas por mÃªs no Ãºltimo ano?)
 SELECT SUM(valor)
 FROM venda
 WHERE data_venda BETWEEN '2023-03-01' AND '2023-03-30'
@@ -221,7 +221,7 @@ FROM medicamento
 WHERE categoria = '1'
 
 13)
-Obs.: Temos o mesmo problema da questão 9, o valor vem certo mas o nome não
+--Obs.: Temos o mesmo problema da questÃ£o 9, o valor vem certo mas o nome nÃ£o
 
 SELECT cliente.nome_cliente, MAX(valor)
 FROM venda
