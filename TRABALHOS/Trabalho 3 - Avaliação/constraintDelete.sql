@@ -27,7 +27,7 @@ DELETE FROM cliente
 WHERE id_cliente = 5
 
 
-USO DO UNIQUE:
+--USO DO UNIQUE:
 
 CREATE TABLE funcionario(
 	id_funcionario INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
