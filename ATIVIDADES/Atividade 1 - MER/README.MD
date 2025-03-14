@@ -1,9 +1,9 @@
 # Tabelas para modelagem ENTIDADE-RELACIONAMENTO
 ## HOSPITAL:
 
-**PACIENTES**
+**PACIENTES:**
 ---
-**FUNCIONARIOS**
+**FUNCIONARIOS:**
 ---
 **SETORES:**
 * AMBULATÓRIO
