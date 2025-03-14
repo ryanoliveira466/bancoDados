@@ -8,7 +8,7 @@ A modelagem ER é uma técnica visual para representar as entidades e seus relac
 
 ## 2. **Criação das Tabelas:**
 
-Com a modelagem ER concluída, podemos criar as tabelas no banco de dados. Para cada entidade identificada, crie uma tabela correspondente. Aqui estão alguns exemplos de tabelas e seus atributos:
+Com a modelagem MER concluída, podemos criar as tabelas no banco de dados. Para cada entidade identificada, crie uma tabela correspondente. Aqui estão alguns exemplos de tabelas e seus atributos:
 
    - **Tabela "Medicamento":**
      - Atributos: 
