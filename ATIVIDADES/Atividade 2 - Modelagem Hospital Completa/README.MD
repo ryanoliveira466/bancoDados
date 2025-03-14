@@ -1,6 +1,6 @@
 # Modelagem Hospitalar
 
-## 1. Paciente
+## 1 - Paciente
 - **ID_Paciente** (Identificador único)
 - **Nome**
 - **CPF**
