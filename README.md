@@ -62,14 +62,14 @@ Porta: 3306
 
 **Após isso o ambiente já estará pronto no HeidiSQL** 
  
-* Caso queira, você pode acessar o banco de dados diretamente do terminal
-* Execute esse código na basta bin novamente
+* Caso queira, você pode acessar o banco de dados diretamente do terminal.
+* Execute esse código na basta bin novamente.
 
 ```bash
 mysql -u root -p
 ```
 
-* Depois disso, pedirá senha(coloque-a se tiver) e pronto, você pode acessar o banco através do terminal
+* Depois disso, pedirá senha(coloque-a se tiver) e pronto, você pode acessar o banco através do terminal.
 ```prompt
 Welcome to the MariaDB monitor.  Commands end with ; or \g.
 Your MariaDB connection id is 3
