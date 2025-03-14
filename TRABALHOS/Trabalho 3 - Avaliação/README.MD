@@ -59,29 +59,29 @@ E insira 10 linhas de código na tabela **consultas**.
 
 ##  Resolução dos Problemas
 
-**a)** O segundo paciente da lista se mudou para Ilhota;
+**a)** O segundo paciente da lista se mudou para Ilhota.
 
-**b)** A consulta do médico 1 com o paciente 4 foi marcada para as 12 horas do dia 4 de novembro de 2021;
+**b)** A consulta do médico 1 com o paciente 4 foi marcada para as 12 horas do dia 4 de novembro de 2021.
 
-**c)** O funcionário 4 deixou a clínica;
+**c)** O funcionário 4 deixou a clínica.
 
-**d)** Foram contratados 2 novos funcionários: o funcionário Matheus e a funcionária Martina;
+**d)** Foram contratados 2 novos funcionários: o funcionário Matheus e a funcionária Martina.
 
-**e)** Delete o paciente 3 pela doença e adicione um novo com a mesma doença;
+**e)** Delete o paciente 3 pela doença e adicione um novo com a mesma doença.
 
 **f)** Os pacientes com idade inferior a 24 anos deixaram a clínica.
 
 ## Busca de Informações Filtradas
 
-**a)** Buscar os dados dos ambulatórios que possuem capacidade superior a 30;
+**a)** Buscar os dados dos ambulatórios que possuem capacidade superior a 30.
 
-**b)** Buscar os dados dos médicos com menos de 40 anos ou com especialidade em traumatologia;
+**b)** Buscar os dados dos médicos com menos de 40 anos ou com especialidade em traumatologia.
 
-**c)** Buscar os códigos dos médicos e os códigos dos pacientes, para todas as consultas marcadas no período da tarde (a partir das 13h) após o dia 15/05/2022 (caso não tenha, insira na tabela ou modifique e coloque o UPDATE também na resposta dessa questão);
+**c)** Buscar os códigos dos médicos e os códigos dos pacientes, para todas as consultas marcadas no período da tarde (a partir das 13h) após o dia 15/05/2022 (caso não tenha, insira na tabela ou modifique e coloque o UPDATE também na resposta dessa questão).
 
-**d)** Buscar o nome e a idade dos pacientes que não residem em Passo Fundo;
+**d)** Buscar o nome e a idade dos pacientes que não residem em Passo Fundo.
 
-**e)** Buscar o nome e a idade (em meses) dos pacientes;
+**e)** Buscar o nome e a idade (em meses) dos pacientes.
 
 **f)** Qual o menor e o maior salário dos funcionários de Passo Fundo?
 
@@ -89,7 +89,7 @@ E insira 10 linhas de código na tabela **consultas**.
 
 ## Busca com Junção de Tabelas
 
-**a)** Buscar o número e o andar dos ambulatórios utilizados por médicos ortopedistas (caso não tenha médico com especialidade de ortopedia, insira e coloque o INSERT ou o UPDATE também na resposta desta questão);
+**a)** Buscar o número e o andar dos ambulatórios utilizados por médicos ortopedistas (caso não tenha médico com especialidade de ortopedia, insira e coloque o INSERT ou o UPDATE também na resposta desta questão).
 
 **b)** Buscar o código, nome e data dos pacientes com consulta marcada para horários após às 14 horas.
 
