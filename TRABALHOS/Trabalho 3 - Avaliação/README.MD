@@ -2,13 +2,13 @@
 
 Todas as linhas de código devem ser entregues no mesmo documento com a identificação da questão como comentário.
 
-## 1) Criação do Banco de Dados
+## Criação do Banco de Dados
 
 Crie um banco de dados com o nome **Clínica**.
 
 **Obs.:** A partir da segunda questão, considere que os atributos em **negrito** são chaves primárias (PK) e os em *itálico* são chaves estrangeiras (FK). Não esqueça de utilizar **CONSTRAINT**.
 
-## 2) Criação das Tabelas
+## Criação das Tabelas
 
 ### a) **ambulatorios**
 - i) `cod_amb` (int)
