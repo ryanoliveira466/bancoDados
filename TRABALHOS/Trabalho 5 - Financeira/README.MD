@@ -47,6 +47,6 @@ utilizando OLD.numerodacoluna e o saldo atualizado como NEW.saldo)
  
  ---
  
- 7 - Crie um procedimento que modifica o saldo de todas as contas com o valor informado;.
+ 7 - Crie um procedimento que modifica o saldo de todas as contas com o valor informado.
  
- Dica: Remova o safe updates nas configs
+ Dica: Remova o safe updates nas configs.
