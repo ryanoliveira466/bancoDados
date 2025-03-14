@@ -1,6 +1,5 @@
 # Tabelas para modelagem ENTIDADE-RELACIONAMENTO
 ## HOSPITAL:
-
 1. **PACIENTES**
 ---
 2. **FUNCIONARIOS**
